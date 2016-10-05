@@ -1,0 +1,5 @@
+set -tmpdir "D:/Users/angelicabibiana/Desktop/FFD/procesadorsumador/xst/projnav.tmp"
+set -xsthdpdir "D:/Users/angelicabibiana/Desktop/FFD/procesadorsumador/xst"
+elaborate
+-ifn sumador.prj
+-ifmt mixed
