@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "C:/Users/utp/Desktop/ce/Pc/Pc.xst" -ofn "C:/Users/utp/Desktop/ce/Pc/Pc.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim Pc.ngc Pc_synthesis.v 
