@@ -1,1 +1,1 @@
--intstyle "ise" -incremental -o "C:/Users/utp/Desktop/ce/Pc/test_Pc_isim_beh.exe" -prj "C:/Users/utp/Desktop/ce/Pc/test_Pc_beh.prj" "work.test_Pc" 
+-intstyle "ise" -incremental -o "D:/Users/angelicabibiana/Desktop/procesadorangelica/procesador1/Tb_Rf_isim_beh.exe" -prj "D:/Users/angelicabibiana/Desktop/procesadorangelica/procesador1/Tb_Rf_beh.prj" "work.Tb_Rf" 

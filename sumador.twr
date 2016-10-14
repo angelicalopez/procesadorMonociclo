@@ -1,0 +1,1115 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 5
+-n 3 -fastpaths -xml sumador.twx sumador.ncd -o sumador.twr sumador.pcf
+
+Design file:              sumador.ncd
+Physical constraint file: sumador.pcf
+Device,package,speed:     xc3s500e,fg320,-5 (PRODUCTION 1.27 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter 
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
+   'Phase Error' calculations, these terms will be zero in the Clock 
+   Uncertainty calculation.  Please make appropriate modification to 
+   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
+   Error.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+------------------+---------+
+Source Pad     |Destination Pad   |  Delay  |
+---------------+------------------+---------+
+A<0>           |salida_sumador<0> |    8.893|
+A<0>           |salida_sumador<1> |    9.061|
+A<0>           |salida_sumador<2> |    9.731|
+A<0>           |salida_sumador<3> |    9.629|
+A<0>           |salida_sumador<4> |    9.377|
+A<0>           |salida_sumador<5> |    9.928|
+A<0>           |salida_sumador<6> |    9.677|
+A<0>           |salida_sumador<7> |    9.996|
+A<0>           |salida_sumador<8> |    9.830|
+A<0>           |salida_sumador<9> |   10.171|
+A<0>           |salida_sumador<10>|    9.942|
+A<0>           |salida_sumador<11>|    9.739|
+A<0>           |salida_sumador<12>|    9.973|
+A<0>           |salida_sumador<13>|   10.249|
+A<0>           |salida_sumador<14>|   10.001|
+A<0>           |salida_sumador<15>|    9.870|
+A<0>           |salida_sumador<16>|   10.645|
+A<0>           |salida_sumador<17>|   10.723|
+A<0>           |salida_sumador<18>|   10.098|
+A<0>           |salida_sumador<19>|    9.843|
+A<0>           |salida_sumador<20>|   10.617|
+A<0>           |salida_sumador<21>|   10.363|
+A<0>           |salida_sumador<22>|    9.704|
+A<0>           |salida_sumador<23>|   10.168|
+A<0>           |salida_sumador<24>|    9.692|
+A<0>           |salida_sumador<25>|   10.046|
+A<0>           |salida_sumador<26>|    9.952|
+A<0>           |salida_sumador<27>|   10.744|
+A<0>           |salida_sumador<28>|    9.411|
+A<0>           |salida_sumador<29>|    9.489|
+A<0>           |salida_sumador<30>|    9.487|
+A<0>           |salida_sumador<31>|    9.868|
+A<1>           |salida_sumador<1> |    8.939|
+A<1>           |salida_sumador<2> |    9.826|
+A<1>           |salida_sumador<3> |    9.724|
+A<1>           |salida_sumador<4> |    9.472|
+A<1>           |salida_sumador<5> |   10.023|
+A<1>           |salida_sumador<6> |    9.772|
+A<1>           |salida_sumador<7> |   10.091|
+A<1>           |salida_sumador<8> |    9.925|
+A<1>           |salida_sumador<9> |   10.266|
+A<1>           |salida_sumador<10>|   10.037|
+A<1>           |salida_sumador<11>|    9.834|
+A<1>           |salida_sumador<12>|   10.068|
+A<1>           |salida_sumador<13>|   10.344|
+A<1>           |salida_sumador<14>|   10.096|
+A<1>           |salida_sumador<15>|    9.965|
+A<1>           |salida_sumador<16>|   10.740|
+A<1>           |salida_sumador<17>|   10.818|
+A<1>           |salida_sumador<18>|   10.193|
+A<1>           |salida_sumador<19>|    9.938|
+A<1>           |salida_sumador<20>|   10.712|
+A<1>           |salida_sumador<21>|   10.458|
+A<1>           |salida_sumador<22>|    9.799|
+A<1>           |salida_sumador<23>|   10.263|
+A<1>           |salida_sumador<24>|    9.787|
+A<1>           |salida_sumador<25>|   10.141|
+A<1>           |salida_sumador<26>|   10.047|
+A<1>           |salida_sumador<27>|   10.839|
+A<1>           |salida_sumador<28>|    9.506|
+A<1>           |salida_sumador<29>|    9.584|
+A<1>           |salida_sumador<30>|    9.582|
+A<1>           |salida_sumador<31>|    9.963|
+A<2>           |salida_sumador<2> |    9.132|
+A<2>           |salida_sumador<3> |    9.181|
+A<2>           |salida_sumador<4> |    9.166|
+A<2>           |salida_sumador<5> |    9.717|
+A<2>           |salida_sumador<6> |    9.466|
+A<2>           |salida_sumador<7> |    9.785|
+A<2>           |salida_sumador<8> |    9.619|
+A<2>           |salida_sumador<9> |    9.960|
+A<2>           |salida_sumador<10>|    9.731|
+A<2>           |salida_sumador<11>|    9.528|
+A<2>           |salida_sumador<12>|    9.762|
+A<2>           |salida_sumador<13>|   10.038|
+A<2>           |salida_sumador<14>|    9.790|
+A<2>           |salida_sumador<15>|    9.659|
+A<2>           |salida_sumador<16>|   10.434|
+A<2>           |salida_sumador<17>|   10.512|
+A<2>           |salida_sumador<18>|    9.887|
+A<2>           |salida_sumador<19>|    9.632|
+A<2>           |salida_sumador<20>|   10.406|
+A<2>           |salida_sumador<21>|   10.152|
+A<2>           |salida_sumador<22>|    9.493|
+A<2>           |salida_sumador<23>|    9.957|
+A<2>           |salida_sumador<24>|    9.481|
+A<2>           |salida_sumador<25>|    9.835|
+A<2>           |salida_sumador<26>|    9.741|
+A<2>           |salida_sumador<27>|   10.533|
+A<2>           |salida_sumador<28>|    9.200|
+A<2>           |salida_sumador<29>|    9.278|
+A<2>           |salida_sumador<30>|    9.276|
+A<2>           |salida_sumador<31>|    9.657|
+A<3>           |salida_sumador<3> |    8.945|
+A<3>           |salida_sumador<4> |    9.147|
+A<3>           |salida_sumador<5> |    9.698|
+A<3>           |salida_sumador<6> |    9.447|
+A<3>           |salida_sumador<7> |    9.766|
+A<3>           |salida_sumador<8> |    9.600|
+A<3>           |salida_sumador<9> |    9.941|
+A<3>           |salida_sumador<10>|    9.712|
+A<3>           |salida_sumador<11>|    9.509|
+A<3>           |salida_sumador<12>|    9.743|
+A<3>           |salida_sumador<13>|   10.019|
+A<3>           |salida_sumador<14>|    9.771|
+A<3>           |salida_sumador<15>|    9.640|
+A<3>           |salida_sumador<16>|   10.415|
+A<3>           |salida_sumador<17>|   10.493|
+A<3>           |salida_sumador<18>|    9.868|
+A<3>           |salida_sumador<19>|    9.613|
+A<3>           |salida_sumador<20>|   10.387|
+A<3>           |salida_sumador<21>|   10.133|
+A<3>           |salida_sumador<22>|    9.474|
+A<3>           |salida_sumador<23>|    9.938|
+A<3>           |salida_sumador<24>|    9.462|
+A<3>           |salida_sumador<25>|    9.816|
+A<3>           |salida_sumador<26>|    9.722|
+A<3>           |salida_sumador<27>|   10.514|
+A<3>           |salida_sumador<28>|    9.181|
+A<3>           |salida_sumador<29>|    9.259|
+A<3>           |salida_sumador<30>|    9.257|
+A<3>           |salida_sumador<31>|    9.638|
+A<4>           |salida_sumador<4> |    9.158|
+A<4>           |salida_sumador<5> |    9.860|
+A<4>           |salida_sumador<6> |    9.846|
+A<4>           |salida_sumador<7> |   10.165|
+A<4>           |salida_sumador<8> |    9.999|
+A<4>           |salida_sumador<9> |   10.340|
+A<4>           |salida_sumador<10>|   10.111|
+A<4>           |salida_sumador<11>|    9.908|
+A<4>           |salida_sumador<12>|   10.142|
+A<4>           |salida_sumador<13>|   10.418|
+A<4>           |salida_sumador<14>|   10.170|
+A<4>           |salida_sumador<15>|   10.039|
+A<4>           |salida_sumador<16>|   10.814|
+A<4>           |salida_sumador<17>|   10.892|
+A<4>           |salida_sumador<18>|   10.267|
+A<4>           |salida_sumador<19>|   10.012|
+A<4>           |salida_sumador<20>|   10.786|
+A<4>           |salida_sumador<21>|   10.532|
+A<4>           |salida_sumador<22>|    9.873|
+A<4>           |salida_sumador<23>|   10.337|
+A<4>           |salida_sumador<24>|    9.861|
+A<4>           |salida_sumador<25>|   10.215|
+A<4>           |salida_sumador<26>|   10.121|
+A<4>           |salida_sumador<27>|   10.913|
+A<4>           |salida_sumador<28>|    9.580|
+A<4>           |salida_sumador<29>|    9.658|
+A<4>           |salida_sumador<30>|    9.656|
+A<4>           |salida_sumador<31>|   10.037|
+A<5>           |salida_sumador<5> |    8.836|
+A<5>           |salida_sumador<6> |    9.039|
+A<5>           |salida_sumador<7> |    9.358|
+A<5>           |salida_sumador<8> |    9.192|
+A<5>           |salida_sumador<9> |    9.533|
+A<5>           |salida_sumador<10>|    9.304|
+A<5>           |salida_sumador<11>|    9.101|
+A<5>           |salida_sumador<12>|    9.335|
+A<5>           |salida_sumador<13>|    9.611|
+A<5>           |salida_sumador<14>|    9.363|
+A<5>           |salida_sumador<15>|    9.232|
+A<5>           |salida_sumador<16>|   10.007|
+A<5>           |salida_sumador<17>|   10.085|
+A<5>           |salida_sumador<18>|    9.460|
+A<5>           |salida_sumador<19>|    9.205|
+A<5>           |salida_sumador<20>|    9.979|
+A<5>           |salida_sumador<21>|    9.725|
+A<5>           |salida_sumador<22>|    9.066|
+A<5>           |salida_sumador<23>|    9.530|
+A<5>           |salida_sumador<24>|    9.054|
+A<5>           |salida_sumador<25>|    9.408|
+A<5>           |salida_sumador<26>|    9.314|
+A<5>           |salida_sumador<27>|   10.106|
+A<5>           |salida_sumador<28>|    8.773|
+A<5>           |salida_sumador<29>|    8.851|
+A<5>           |salida_sumador<30>|    8.849|
+A<5>           |salida_sumador<31>|    9.230|
+A<6>           |salida_sumador<6> |    8.375|
+A<6>           |salida_sumador<7> |    8.845|
+A<6>           |salida_sumador<8> |    8.916|
+A<6>           |salida_sumador<9> |    9.257|
+A<6>           |salida_sumador<10>|    9.028|
+A<6>           |salida_sumador<11>|    8.825|
+A<6>           |salida_sumador<12>|    9.059|
+A<6>           |salida_sumador<13>|    9.335|
+A<6>           |salida_sumador<14>|    9.087|
+A<6>           |salida_sumador<15>|    8.956|
+A<6>           |salida_sumador<16>|    9.731|
+A<6>           |salida_sumador<17>|    9.809|
+A<6>           |salida_sumador<18>|    9.184|
+A<6>           |salida_sumador<19>|    8.929|
+A<6>           |salida_sumador<20>|    9.703|
+A<6>           |salida_sumador<21>|    9.449|
+A<6>           |salida_sumador<22>|    8.790|
+A<6>           |salida_sumador<23>|    9.254|
+A<6>           |salida_sumador<24>|    8.778|
+A<6>           |salida_sumador<25>|    9.132|
+A<6>           |salida_sumador<26>|    9.038|
+A<6>           |salida_sumador<27>|    9.830|
+A<6>           |salida_sumador<28>|    8.497|
+A<6>           |salida_sumador<29>|    8.575|
+A<6>           |salida_sumador<30>|    8.573|
+A<6>           |salida_sumador<31>|    8.954|
+A<7>           |salida_sumador<7> |    8.434|
+A<7>           |salida_sumador<8> |    8.722|
+A<7>           |salida_sumador<9> |    9.063|
+A<7>           |salida_sumador<10>|    8.834|
+A<7>           |salida_sumador<11>|    8.631|
+A<7>           |salida_sumador<12>|    8.865|
+A<7>           |salida_sumador<13>|    9.141|
+A<7>           |salida_sumador<14>|    8.893|
+A<7>           |salida_sumador<15>|    8.762|
+A<7>           |salida_sumador<16>|    9.537|
+A<7>           |salida_sumador<17>|    9.615|
+A<7>           |salida_sumador<18>|    8.990|
+A<7>           |salida_sumador<19>|    8.735|
+A<7>           |salida_sumador<20>|    9.509|
+A<7>           |salida_sumador<21>|    9.255|
+A<7>           |salida_sumador<22>|    8.596|
+A<7>           |salida_sumador<23>|    9.060|
+A<7>           |salida_sumador<24>|    8.584|
+A<7>           |salida_sumador<25>|    8.938|
+A<7>           |salida_sumador<26>|    8.844|
+A<7>           |salida_sumador<27>|    9.636|
+A<7>           |salida_sumador<28>|    8.303|
+A<7>           |salida_sumador<29>|    8.381|
+A<7>           |salida_sumador<30>|    8.379|
+A<7>           |salida_sumador<31>|    8.760|
+A<8>           |salida_sumador<8> |    8.082|
+A<8>           |salida_sumador<9> |    8.574|
+A<8>           |salida_sumador<10>|    8.582|
+A<8>           |salida_sumador<11>|    8.379|
+A<8>           |salida_sumador<12>|    8.613|
+A<8>           |salida_sumador<13>|    8.889|
+A<8>           |salida_sumador<14>|    8.641|
+A<8>           |salida_sumador<15>|    8.510|
+A<8>           |salida_sumador<16>|    9.285|
+A<8>           |salida_sumador<17>|    9.363|
+A<8>           |salida_sumador<18>|    8.738|
+A<8>           |salida_sumador<19>|    8.483|
+A<8>           |salida_sumador<20>|    9.257|
+A<8>           |salida_sumador<21>|    9.003|
+A<8>           |salida_sumador<22>|    8.344|
+A<8>           |salida_sumador<23>|    8.808|
+A<8>           |salida_sumador<24>|    8.332|
+A<8>           |salida_sumador<25>|    8.686|
+A<8>           |salida_sumador<26>|    8.592|
+A<8>           |salida_sumador<27>|    9.384|
+A<8>           |salida_sumador<28>|    8.051|
+A<8>           |salida_sumador<29>|    8.129|
+A<8>           |salida_sumador<30>|    8.127|
+A<8>           |salida_sumador<31>|    8.508|
+A<9>           |salida_sumador<9> |    8.655|
+A<9>           |salida_sumador<10>|    8.880|
+A<9>           |salida_sumador<11>|    8.677|
+A<9>           |salida_sumador<12>|    8.911|
+A<9>           |salida_sumador<13>|    9.187|
+A<9>           |salida_sumador<14>|    8.939|
+A<9>           |salida_sumador<15>|    8.808|
+A<9>           |salida_sumador<16>|    9.583|
+A<9>           |salida_sumador<17>|    9.661|
+A<9>           |salida_sumador<18>|    9.036|
+A<9>           |salida_sumador<19>|    8.781|
+A<9>           |salida_sumador<20>|    9.555|
+A<9>           |salida_sumador<21>|    9.301|
+A<9>           |salida_sumador<22>|    8.642|
+A<9>           |salida_sumador<23>|    9.106|
+A<9>           |salida_sumador<24>|    8.630|
+A<9>           |salida_sumador<25>|    8.984|
+A<9>           |salida_sumador<26>|    8.890|
+A<9>           |salida_sumador<27>|    9.682|
+A<9>           |salida_sumador<28>|    8.349|
+A<9>           |salida_sumador<29>|    8.427|
+A<9>           |salida_sumador<30>|    8.425|
+A<9>           |salida_sumador<31>|    8.806|
+A<10>          |salida_sumador<10>|    8.088|
+A<10>          |salida_sumador<11>|    8.036|
+A<10>          |salida_sumador<12>|    8.507|
+A<10>          |salida_sumador<13>|    8.783|
+A<10>          |salida_sumador<14>|    8.535|
+A<10>          |salida_sumador<15>|    8.404|
+A<10>          |salida_sumador<16>|    9.179|
+A<10>          |salida_sumador<17>|    9.257|
+A<10>          |salida_sumador<18>|    8.632|
+A<10>          |salida_sumador<19>|    8.377|
+A<10>          |salida_sumador<20>|    9.151|
+A<10>          |salida_sumador<21>|    8.897|
+A<10>          |salida_sumador<22>|    8.238|
+A<10>          |salida_sumador<23>|    8.702|
+A<10>          |salida_sumador<24>|    8.226|
+A<10>          |salida_sumador<25>|    8.580|
+A<10>          |salida_sumador<26>|    8.486|
+A<10>          |salida_sumador<27>|    9.278|
+A<10>          |salida_sumador<28>|    7.945|
+A<10>          |salida_sumador<29>|    8.023|
+A<10>          |salida_sumador<30>|    8.021|
+A<10>          |salida_sumador<31>|    8.402|
+A<11>          |salida_sumador<11>|    7.924|
+A<11>          |salida_sumador<12>|    8.612|
+A<11>          |salida_sumador<13>|    8.888|
+A<11>          |salida_sumador<14>|    8.640|
+A<11>          |salida_sumador<15>|    8.509|
+A<11>          |salida_sumador<16>|    9.284|
+A<11>          |salida_sumador<17>|    9.362|
+A<11>          |salida_sumador<18>|    8.737|
+A<11>          |salida_sumador<19>|    8.482|
+A<11>          |salida_sumador<20>|    9.256|
+A<11>          |salida_sumador<21>|    9.002|
+A<11>          |salida_sumador<22>|    8.343|
+A<11>          |salida_sumador<23>|    8.807|
+A<11>          |salida_sumador<24>|    8.331|
+A<11>          |salida_sumador<25>|    8.685|
+A<11>          |salida_sumador<26>|    8.591|
+A<11>          |salida_sumador<27>|    9.383|
+A<11>          |salida_sumador<28>|    8.050|
+A<11>          |salida_sumador<29>|    8.128|
+A<11>          |salida_sumador<30>|    8.126|
+A<11>          |salida_sumador<31>|    8.507|
+A<12>          |salida_sumador<12>|    7.529|
+A<12>          |salida_sumador<13>|    7.956|
+A<12>          |salida_sumador<14>|    7.945|
+A<12>          |salida_sumador<15>|    7.814|
+A<12>          |salida_sumador<16>|    8.589|
+A<12>          |salida_sumador<17>|    8.667|
+A<12>          |salida_sumador<18>|    8.042|
+A<12>          |salida_sumador<19>|    7.787|
+A<12>          |salida_sumador<20>|    8.561|
+A<12>          |salida_sumador<21>|    8.307|
+A<12>          |salida_sumador<22>|    7.648|
+A<12>          |salida_sumador<23>|    8.112|
+A<12>          |salida_sumador<24>|    7.636|
+A<12>          |salida_sumador<25>|    7.990|
+A<12>          |salida_sumador<26>|    7.896|
+A<12>          |salida_sumador<27>|    8.688|
+A<12>          |salida_sumador<28>|    7.355|
+A<12>          |salida_sumador<29>|    7.433|
+A<12>          |salida_sumador<30>|    7.431|
+A<12>          |salida_sumador<31>|    7.812|
+A<13>          |salida_sumador<13>|    7.528|
+A<13>          |salida_sumador<14>|    7.734|
+A<13>          |salida_sumador<15>|    7.603|
+A<13>          |salida_sumador<16>|    8.378|
+A<13>          |salida_sumador<17>|    8.456|
+A<13>          |salida_sumador<18>|    7.831|
+A<13>          |salida_sumador<19>|    7.576|
+A<13>          |salida_sumador<20>|    8.350|
+A<13>          |salida_sumador<21>|    8.096|
+A<13>          |salida_sumador<22>|    7.437|
+A<13>          |salida_sumador<23>|    7.901|
+A<13>          |salida_sumador<24>|    7.425|
+A<13>          |salida_sumador<25>|    7.779|
+A<13>          |salida_sumador<26>|    7.685|
+A<13>          |salida_sumador<27>|    8.477|
+A<13>          |salida_sumador<28>|    7.144|
+A<13>          |salida_sumador<29>|    7.222|
+A<13>          |salida_sumador<30>|    7.220|
+A<13>          |salida_sumador<31>|    7.601|
+A<14>          |salida_sumador<14>|    7.724|
+A<14>          |salida_sumador<15>|    7.744|
+A<14>          |salida_sumador<16>|    8.756|
+A<14>          |salida_sumador<17>|    8.834|
+A<14>          |salida_sumador<18>|    8.209|
+A<14>          |salida_sumador<19>|    7.954|
+A<14>          |salida_sumador<20>|    8.728|
+A<14>          |salida_sumador<21>|    8.474|
+A<14>          |salida_sumador<22>|    7.815|
+A<14>          |salida_sumador<23>|    8.279|
+A<14>          |salida_sumador<24>|    7.803|
+A<14>          |salida_sumador<25>|    8.157|
+A<14>          |salida_sumador<26>|    8.063|
+A<14>          |salida_sumador<27>|    8.855|
+A<14>          |salida_sumador<28>|    7.522|
+A<14>          |salida_sumador<29>|    7.600|
+A<14>          |salida_sumador<30>|    7.598|
+A<14>          |salida_sumador<31>|    7.979|
+A<15>          |salida_sumador<15>|    7.455|
+A<15>          |salida_sumador<16>|    8.684|
+A<15>          |salida_sumador<17>|    8.762|
+A<15>          |salida_sumador<18>|    8.137|
+A<15>          |salida_sumador<19>|    7.882|
+A<15>          |salida_sumador<20>|    8.656|
+A<15>          |salida_sumador<21>|    8.402|
+A<15>          |salida_sumador<22>|    7.743|
+A<15>          |salida_sumador<23>|    8.207|
+A<15>          |salida_sumador<24>|    7.731|
+A<15>          |salida_sumador<25>|    8.085|
+A<15>          |salida_sumador<26>|    7.991|
+A<15>          |salida_sumador<27>|    8.783|
+A<15>          |salida_sumador<28>|    7.450|
+A<15>          |salida_sumador<29>|    7.528|
+A<15>          |salida_sumador<30>|    7.526|
+A<15>          |salida_sumador<31>|    7.907|
+A<16>          |salida_sumador<16>|    8.524|
+A<16>          |salida_sumador<17>|    8.753|
+A<16>          |salida_sumador<18>|    8.365|
+A<16>          |salida_sumador<19>|    8.110|
+A<16>          |salida_sumador<20>|    8.884|
+A<16>          |salida_sumador<21>|    8.630|
+A<16>          |salida_sumador<22>|    7.971|
+A<16>          |salida_sumador<23>|    8.435|
+A<16>          |salida_sumador<24>|    7.959|
+A<16>          |salida_sumador<25>|    8.313|
+A<16>          |salida_sumador<26>|    8.219|
+A<16>          |salida_sumador<27>|    9.011|
+A<16>          |salida_sumador<28>|    7.678|
+A<16>          |salida_sumador<29>|    7.756|
+A<16>          |salida_sumador<30>|    7.754|
+A<16>          |salida_sumador<31>|    8.135|
+A<17>          |salida_sumador<17>|    8.582|
+A<17>          |salida_sumador<18>|    8.411|
+A<17>          |salida_sumador<19>|    8.156|
+A<17>          |salida_sumador<20>|    8.930|
+A<17>          |salida_sumador<21>|    8.676|
+A<17>          |salida_sumador<22>|    8.017|
+A<17>          |salida_sumador<23>|    8.481|
+A<17>          |salida_sumador<24>|    8.005|
+A<17>          |salida_sumador<25>|    8.359|
+A<17>          |salida_sumador<26>|    8.265|
+A<17>          |salida_sumador<27>|    9.057|
+A<17>          |salida_sumador<28>|    7.724|
+A<17>          |salida_sumador<29>|    7.802|
+A<17>          |salida_sumador<30>|    7.800|
+A<17>          |salida_sumador<31>|    8.181|
+A<18>          |salida_sumador<18>|    8.034|
+A<18>          |salida_sumador<19>|    7.930|
+A<18>          |salida_sumador<20>|    8.941|
+A<18>          |salida_sumador<21>|    8.687|
+A<18>          |salida_sumador<22>|    8.028|
+A<18>          |salida_sumador<23>|    8.492|
+A<18>          |salida_sumador<24>|    8.016|
+A<18>          |salida_sumador<25>|    8.370|
+A<18>          |salida_sumador<26>|    8.276|
+A<18>          |salida_sumador<27>|    9.068|
+A<18>          |salida_sumador<28>|    7.735|
+A<18>          |salida_sumador<29>|    7.813|
+A<18>          |salida_sumador<30>|    7.811|
+A<18>          |salida_sumador<31>|    8.192|
+A<19>          |salida_sumador<19>|    7.646|
+A<19>          |salida_sumador<20>|    8.874|
+A<19>          |salida_sumador<21>|    8.620|
+A<19>          |salida_sumador<22>|    7.961|
+A<19>          |salida_sumador<23>|    8.425|
+A<19>          |salida_sumador<24>|    7.949|
+A<19>          |salida_sumador<25>|    8.303|
+A<19>          |salida_sumador<26>|    8.209|
+A<19>          |salida_sumador<27>|    9.001|
+A<19>          |salida_sumador<28>|    7.668|
+A<19>          |salida_sumador<29>|    7.746|
+A<19>          |salida_sumador<30>|    7.744|
+A<19>          |salida_sumador<31>|    8.125|
+A<20>          |salida_sumador<20>|    8.237|
+A<20>          |salida_sumador<21>|    8.134|
+A<20>          |salida_sumador<22>|    7.712|
+A<20>          |salida_sumador<23>|    8.176|
+A<20>          |salida_sumador<24>|    7.700|
+A<20>          |salida_sumador<25>|    8.054|
+A<20>          |salida_sumador<26>|    7.960|
+A<20>          |salida_sumador<27>|    8.752|
+A<20>          |salida_sumador<28>|    7.419|
+A<20>          |salida_sumador<29>|    7.497|
+A<20>          |salida_sumador<30>|    7.495|
+A<20>          |salida_sumador<31>|    7.876|
+A<21>          |salida_sumador<21>|    7.773|
+A<21>          |salida_sumador<22>|    7.568|
+A<21>          |salida_sumador<23>|    8.032|
+A<21>          |salida_sumador<24>|    7.556|
+A<21>          |salida_sumador<25>|    7.910|
+A<21>          |salida_sumador<26>|    7.816|
+A<21>          |salida_sumador<27>|    8.608|
+A<21>          |salida_sumador<28>|    7.275|
+A<21>          |salida_sumador<29>|    7.353|
+A<21>          |salida_sumador<30>|    7.351|
+A<21>          |salida_sumador<31>|    7.732|
+A<22>          |salida_sumador<22>|    7.610|
+A<22>          |salida_sumador<23>|    8.225|
+A<22>          |salida_sumador<24>|    7.986|
+A<22>          |salida_sumador<25>|    8.340|
+A<22>          |salida_sumador<26>|    8.246|
+A<22>          |salida_sumador<27>|    9.038|
+A<22>          |salida_sumador<28>|    7.705|
+A<22>          |salida_sumador<29>|    7.783|
+A<22>          |salida_sumador<30>|    7.781|
+A<22>          |salida_sumador<31>|    8.162|
+A<23>          |salida_sumador<23>|    7.780|
+A<23>          |salida_sumador<24>|    7.758|
+A<23>          |salida_sumador<25>|    8.112|
+A<23>          |salida_sumador<26>|    8.018|
+A<23>          |salida_sumador<27>|    8.810|
+A<23>          |salida_sumador<28>|    7.477|
+A<23>          |salida_sumador<29>|    7.555|
+A<23>          |salida_sumador<30>|    7.553|
+A<23>          |salida_sumador<31>|    7.934|
+A<24>          |salida_sumador<24>|    7.163|
+A<24>          |salida_sumador<25>|    7.668|
+A<24>          |salida_sumador<26>|    7.811|
+A<24>          |salida_sumador<27>|    8.603|
+A<24>          |salida_sumador<28>|    7.270|
+A<24>          |salida_sumador<29>|    7.348|
+A<24>          |salida_sumador<30>|    7.346|
+A<24>          |salida_sumador<31>|    7.727|
+A<25>          |salida_sumador<25>|    7.238|
+A<25>          |salida_sumador<26>|    7.598|
+A<25>          |salida_sumador<27>|    8.390|
+A<25>          |salida_sumador<28>|    7.057|
+A<25>          |salida_sumador<29>|    7.135|
+A<25>          |salida_sumador<30>|    7.133|
+A<25>          |salida_sumador<31>|    7.514|
+A<26>          |salida_sumador<26>|    7.389|
+A<26>          |salida_sumador<27>|    8.332|
+A<26>          |salida_sumador<28>|    7.236|
+A<26>          |salida_sumador<29>|    7.314|
+A<26>          |salida_sumador<30>|    7.312|
+A<26>          |salida_sumador<31>|    7.693|
+A<27>          |salida_sumador<27>|    7.968|
+A<27>          |salida_sumador<28>|    7.089|
+A<27>          |salida_sumador<29>|    7.167|
+A<27>          |salida_sumador<30>|    7.165|
+A<27>          |salida_sumador<31>|    7.546|
+A<28>          |salida_sumador<28>|    6.868|
+A<28>          |salida_sumador<29>|    7.097|
+A<28>          |salida_sumador<30>|    7.332|
+A<28>          |salida_sumador<31>|    7.713|
+A<29>          |salida_sumador<29>|    6.105|
+A<29>          |salida_sumador<30>|    6.557|
+A<29>          |salida_sumador<31>|    6.938|
+A<30>          |salida_sumador<30>|    6.841|
+A<30>          |salida_sumador<31>|    7.373|
+A<31>          |salida_sumador<31>|    6.242|
+B<0>           |salida_sumador<0> |    8.056|
+B<0>           |salida_sumador<1> |    8.224|
+B<0>           |salida_sumador<2> |    8.894|
+B<0>           |salida_sumador<3> |    8.792|
+B<0>           |salida_sumador<4> |    8.540|
+B<0>           |salida_sumador<5> |    9.091|
+B<0>           |salida_sumador<6> |    8.840|
+B<0>           |salida_sumador<7> |    9.159|
+B<0>           |salida_sumador<8> |    8.993|
+B<0>           |salida_sumador<9> |    9.334|
+B<0>           |salida_sumador<10>|    9.105|
+B<0>           |salida_sumador<11>|    8.902|
+B<0>           |salida_sumador<12>|    9.136|
+B<0>           |salida_sumador<13>|    9.412|
+B<0>           |salida_sumador<14>|    9.164|
+B<0>           |salida_sumador<15>|    9.033|
+B<0>           |salida_sumador<16>|    9.808|
+B<0>           |salida_sumador<17>|    9.886|
+B<0>           |salida_sumador<18>|    9.261|
+B<0>           |salida_sumador<19>|    9.006|
+B<0>           |salida_sumador<20>|    9.780|
+B<0>           |salida_sumador<21>|    9.526|
+B<0>           |salida_sumador<22>|    8.867|
+B<0>           |salida_sumador<23>|    9.331|
+B<0>           |salida_sumador<24>|    8.855|
+B<0>           |salida_sumador<25>|    9.209|
+B<0>           |salida_sumador<26>|    9.115|
+B<0>           |salida_sumador<27>|    9.907|
+B<0>           |salida_sumador<28>|    8.574|
+B<0>           |salida_sumador<29>|    8.652|
+B<0>           |salida_sumador<30>|    8.650|
+B<0>           |salida_sumador<31>|    9.031|
+B<1>           |salida_sumador<1> |    7.551|
+B<1>           |salida_sumador<2> |    8.438|
+B<1>           |salida_sumador<3> |    8.336|
+B<1>           |salida_sumador<4> |    8.084|
+B<1>           |salida_sumador<5> |    8.635|
+B<1>           |salida_sumador<6> |    8.384|
+B<1>           |salida_sumador<7> |    8.703|
+B<1>           |salida_sumador<8> |    8.537|
+B<1>           |salida_sumador<9> |    8.878|
+B<1>           |salida_sumador<10>|    8.649|
+B<1>           |salida_sumador<11>|    8.446|
+B<1>           |salida_sumador<12>|    8.680|
+B<1>           |salida_sumador<13>|    8.956|
+B<1>           |salida_sumador<14>|    8.708|
+B<1>           |salida_sumador<15>|    8.577|
+B<1>           |salida_sumador<16>|    9.352|
+B<1>           |salida_sumador<17>|    9.430|
+B<1>           |salida_sumador<18>|    8.805|
+B<1>           |salida_sumador<19>|    8.550|
+B<1>           |salida_sumador<20>|    9.324|
+B<1>           |salida_sumador<21>|    9.070|
+B<1>           |salida_sumador<22>|    8.411|
+B<1>           |salida_sumador<23>|    8.875|
+B<1>           |salida_sumador<24>|    8.399|
+B<1>           |salida_sumador<25>|    8.753|
+B<1>           |salida_sumador<26>|    8.659|
+B<1>           |salida_sumador<27>|    9.451|
+B<1>           |salida_sumador<28>|    8.118|
+B<1>           |salida_sumador<29>|    8.196|
+B<1>           |salida_sumador<30>|    8.194|
+B<1>           |salida_sumador<31>|    8.575|
+B<2>           |salida_sumador<2> |    8.017|
+B<2>           |salida_sumador<3> |    8.066|
+B<2>           |salida_sumador<4> |    8.051|
+B<2>           |salida_sumador<5> |    8.602|
+B<2>           |salida_sumador<6> |    8.351|
+B<2>           |salida_sumador<7> |    8.670|
+B<2>           |salida_sumador<8> |    8.504|
+B<2>           |salida_sumador<9> |    8.845|
+B<2>           |salida_sumador<10>|    8.616|
+B<2>           |salida_sumador<11>|    8.413|
+B<2>           |salida_sumador<12>|    8.647|
+B<2>           |salida_sumador<13>|    8.923|
+B<2>           |salida_sumador<14>|    8.675|
+B<2>           |salida_sumador<15>|    8.544|
+B<2>           |salida_sumador<16>|    9.319|
+B<2>           |salida_sumador<17>|    9.397|
+B<2>           |salida_sumador<18>|    8.772|
+B<2>           |salida_sumador<19>|    8.517|
+B<2>           |salida_sumador<20>|    9.291|
+B<2>           |salida_sumador<21>|    9.037|
+B<2>           |salida_sumador<22>|    8.378|
+B<2>           |salida_sumador<23>|    8.842|
+B<2>           |salida_sumador<24>|    8.366|
+B<2>           |salida_sumador<25>|    8.720|
+B<2>           |salida_sumador<26>|    8.626|
+B<2>           |salida_sumador<27>|    9.418|
+B<2>           |salida_sumador<28>|    8.085|
+B<2>           |salida_sumador<29>|    8.163|
+B<2>           |salida_sumador<30>|    8.161|
+B<2>           |salida_sumador<31>|    8.542|
+B<3>           |salida_sumador<3> |    7.755|
+B<3>           |salida_sumador<4> |    7.957|
+B<3>           |salida_sumador<5> |    8.508|
+B<3>           |salida_sumador<6> |    8.257|
+B<3>           |salida_sumador<7> |    8.576|
+B<3>           |salida_sumador<8> |    8.410|
+B<3>           |salida_sumador<9> |    8.751|
+B<3>           |salida_sumador<10>|    8.522|
+B<3>           |salida_sumador<11>|    8.319|
+B<3>           |salida_sumador<12>|    8.553|
+B<3>           |salida_sumador<13>|    8.829|
+B<3>           |salida_sumador<14>|    8.581|
+B<3>           |salida_sumador<15>|    8.450|
+B<3>           |salida_sumador<16>|    9.225|
+B<3>           |salida_sumador<17>|    9.303|
+B<3>           |salida_sumador<18>|    8.678|
+B<3>           |salida_sumador<19>|    8.423|
+B<3>           |salida_sumador<20>|    9.197|
+B<3>           |salida_sumador<21>|    8.943|
+B<3>           |salida_sumador<22>|    8.284|
+B<3>           |salida_sumador<23>|    8.748|
+B<3>           |salida_sumador<24>|    8.272|
+B<3>           |salida_sumador<25>|    8.626|
+B<3>           |salida_sumador<26>|    8.532|
+B<3>           |salida_sumador<27>|    9.324|
+B<3>           |salida_sumador<28>|    7.991|
+B<3>           |salida_sumador<29>|    8.069|
+B<3>           |salida_sumador<30>|    8.067|
+B<3>           |salida_sumador<31>|    8.448|
+B<4>           |salida_sumador<4> |    7.414|
+B<4>           |salida_sumador<5> |    8.116|
+B<4>           |salida_sumador<6> |    8.102|
+B<4>           |salida_sumador<7> |    8.421|
+B<4>           |salida_sumador<8> |    8.255|
+B<4>           |salida_sumador<9> |    8.596|
+B<4>           |salida_sumador<10>|    8.367|
+B<4>           |salida_sumador<11>|    8.164|
+B<4>           |salida_sumador<12>|    8.398|
+B<4>           |salida_sumador<13>|    8.674|
+B<4>           |salida_sumador<14>|    8.426|
+B<4>           |salida_sumador<15>|    8.295|
+B<4>           |salida_sumador<16>|    9.070|
+B<4>           |salida_sumador<17>|    9.148|
+B<4>           |salida_sumador<18>|    8.523|
+B<4>           |salida_sumador<19>|    8.268|
+B<4>           |salida_sumador<20>|    9.042|
+B<4>           |salida_sumador<21>|    8.788|
+B<4>           |salida_sumador<22>|    8.129|
+B<4>           |salida_sumador<23>|    8.593|
+B<4>           |salida_sumador<24>|    8.117|
+B<4>           |salida_sumador<25>|    8.471|
+B<4>           |salida_sumador<26>|    8.377|
+B<4>           |salida_sumador<27>|    9.169|
+B<4>           |salida_sumador<28>|    7.836|
+B<4>           |salida_sumador<29>|    7.914|
+B<4>           |salida_sumador<30>|    7.912|
+B<4>           |salida_sumador<31>|    8.293|
+B<5>           |salida_sumador<5> |    7.951|
+B<5>           |salida_sumador<6> |    8.154|
+B<5>           |salida_sumador<7> |    8.473|
+B<5>           |salida_sumador<8> |    8.307|
+B<5>           |salida_sumador<9> |    8.648|
+B<5>           |salida_sumador<10>|    8.419|
+B<5>           |salida_sumador<11>|    8.216|
+B<5>           |salida_sumador<12>|    8.450|
+B<5>           |salida_sumador<13>|    8.726|
+B<5>           |salida_sumador<14>|    8.478|
+B<5>           |salida_sumador<15>|    8.347|
+B<5>           |salida_sumador<16>|    9.122|
+B<5>           |salida_sumador<17>|    9.200|
+B<5>           |salida_sumador<18>|    8.575|
+B<5>           |salida_sumador<19>|    8.320|
+B<5>           |salida_sumador<20>|    9.094|
+B<5>           |salida_sumador<21>|    8.840|
+B<5>           |salida_sumador<22>|    8.181|
+B<5>           |salida_sumador<23>|    8.645|
+B<5>           |salida_sumador<24>|    8.169|
+B<5>           |salida_sumador<25>|    8.523|
+B<5>           |salida_sumador<26>|    8.429|
+B<5>           |salida_sumador<27>|    9.221|
+B<5>           |salida_sumador<28>|    7.888|
+B<5>           |salida_sumador<29>|    7.966|
+B<5>           |salida_sumador<30>|    7.964|
+B<5>           |salida_sumador<31>|    8.345|
+B<6>           |salida_sumador<6> |    7.543|
+B<6>           |salida_sumador<7> |    8.013|
+B<6>           |salida_sumador<8> |    8.084|
+B<6>           |salida_sumador<9> |    8.425|
+B<6>           |salida_sumador<10>|    8.196|
+B<6>           |salida_sumador<11>|    7.993|
+B<6>           |salida_sumador<12>|    8.227|
+B<6>           |salida_sumador<13>|    8.503|
+B<6>           |salida_sumador<14>|    8.255|
+B<6>           |salida_sumador<15>|    8.124|
+B<6>           |salida_sumador<16>|    8.899|
+B<6>           |salida_sumador<17>|    8.977|
+B<6>           |salida_sumador<18>|    8.352|
+B<6>           |salida_sumador<19>|    8.097|
+B<6>           |salida_sumador<20>|    8.871|
+B<6>           |salida_sumador<21>|    8.617|
+B<6>           |salida_sumador<22>|    7.958|
+B<6>           |salida_sumador<23>|    8.422|
+B<6>           |salida_sumador<24>|    7.946|
+B<6>           |salida_sumador<25>|    8.300|
+B<6>           |salida_sumador<26>|    8.206|
+B<6>           |salida_sumador<27>|    8.998|
+B<6>           |salida_sumador<28>|    7.665|
+B<6>           |salida_sumador<29>|    7.743|
+B<6>           |salida_sumador<30>|    7.741|
+B<6>           |salida_sumador<31>|    8.122|
+B<7>           |salida_sumador<7> |    7.918|
+B<7>           |salida_sumador<8> |    8.206|
+B<7>           |salida_sumador<9> |    8.547|
+B<7>           |salida_sumador<10>|    8.318|
+B<7>           |salida_sumador<11>|    8.115|
+B<7>           |salida_sumador<12>|    8.349|
+B<7>           |salida_sumador<13>|    8.625|
+B<7>           |salida_sumador<14>|    8.377|
+B<7>           |salida_sumador<15>|    8.246|
+B<7>           |salida_sumador<16>|    9.021|
+B<7>           |salida_sumador<17>|    9.099|
+B<7>           |salida_sumador<18>|    8.474|
+B<7>           |salida_sumador<19>|    8.219|
+B<7>           |salida_sumador<20>|    8.993|
+B<7>           |salida_sumador<21>|    8.739|
+B<7>           |salida_sumador<22>|    8.080|
+B<7>           |salida_sumador<23>|    8.544|
+B<7>           |salida_sumador<24>|    8.068|
+B<7>           |salida_sumador<25>|    8.422|
+B<7>           |salida_sumador<26>|    8.328|
+B<7>           |salida_sumador<27>|    9.120|
+B<7>           |salida_sumador<28>|    7.787|
+B<7>           |salida_sumador<29>|    7.865|
+B<7>           |salida_sumador<30>|    7.863|
+B<7>           |salida_sumador<31>|    8.244|
+B<8>           |salida_sumador<8> |    8.618|
+B<8>           |salida_sumador<9> |    9.110|
+B<8>           |salida_sumador<10>|    9.118|
+B<8>           |salida_sumador<11>|    8.915|
+B<8>           |salida_sumador<12>|    9.149|
+B<8>           |salida_sumador<13>|    9.425|
+B<8>           |salida_sumador<14>|    9.177|
+B<8>           |salida_sumador<15>|    9.046|
+B<8>           |salida_sumador<16>|    9.821|
+B<8>           |salida_sumador<17>|    9.899|
+B<8>           |salida_sumador<18>|    9.274|
+B<8>           |salida_sumador<19>|    9.019|
+B<8>           |salida_sumador<20>|    9.793|
+B<8>           |salida_sumador<21>|    9.539|
+B<8>           |salida_sumador<22>|    8.880|
+B<8>           |salida_sumador<23>|    9.344|
+B<8>           |salida_sumador<24>|    8.868|
+B<8>           |salida_sumador<25>|    9.222|
+B<8>           |salida_sumador<26>|    9.128|
+B<8>           |salida_sumador<27>|    9.920|
+B<8>           |salida_sumador<28>|    8.587|
+B<8>           |salida_sumador<29>|    8.665|
+B<8>           |salida_sumador<30>|    8.663|
+B<8>           |salida_sumador<31>|    9.044|
+B<9>           |salida_sumador<9> |    8.612|
+B<9>           |salida_sumador<10>|    8.837|
+B<9>           |salida_sumador<11>|    8.634|
+B<9>           |salida_sumador<12>|    8.868|
+B<9>           |salida_sumador<13>|    9.144|
+B<9>           |salida_sumador<14>|    8.896|
+B<9>           |salida_sumador<15>|    8.765|
+B<9>           |salida_sumador<16>|    9.540|
+B<9>           |salida_sumador<17>|    9.618|
+B<9>           |salida_sumador<18>|    8.993|
+B<9>           |salida_sumador<19>|    8.738|
+B<9>           |salida_sumador<20>|    9.512|
+B<9>           |salida_sumador<21>|    9.258|
+B<9>           |salida_sumador<22>|    8.599|
+B<9>           |salida_sumador<23>|    9.063|
+B<9>           |salida_sumador<24>|    8.587|
+B<9>           |salida_sumador<25>|    8.941|
+B<9>           |salida_sumador<26>|    8.847|
+B<9>           |salida_sumador<27>|    9.639|
+B<9>           |salida_sumador<28>|    8.306|
+B<9>           |salida_sumador<29>|    8.384|
+B<9>           |salida_sumador<30>|    8.382|
+B<9>           |salida_sumador<31>|    8.763|
+B<10>          |salida_sumador<10>|    8.631|
+B<10>          |salida_sumador<11>|    8.579|
+B<10>          |salida_sumador<12>|    9.050|
+B<10>          |salida_sumador<13>|    9.326|
+B<10>          |salida_sumador<14>|    9.078|
+B<10>          |salida_sumador<15>|    8.947|
+B<10>          |salida_sumador<16>|    9.722|
+B<10>          |salida_sumador<17>|    9.800|
+B<10>          |salida_sumador<18>|    9.175|
+B<10>          |salida_sumador<19>|    8.920|
+B<10>          |salida_sumador<20>|    9.694|
+B<10>          |salida_sumador<21>|    9.440|
+B<10>          |salida_sumador<22>|    8.781|
+B<10>          |salida_sumador<23>|    9.245|
+B<10>          |salida_sumador<24>|    8.769|
+B<10>          |salida_sumador<25>|    9.123|
+B<10>          |salida_sumador<26>|    9.029|
+B<10>          |salida_sumador<27>|    9.821|
+B<10>          |salida_sumador<28>|    8.488|
+B<10>          |salida_sumador<29>|    8.566|
+B<10>          |salida_sumador<30>|    8.564|
+B<10>          |salida_sumador<31>|    8.945|
+B<11>          |salida_sumador<11>|    7.734|
+B<11>          |salida_sumador<12>|    8.422|
+B<11>          |salida_sumador<13>|    8.698|
+B<11>          |salida_sumador<14>|    8.450|
+B<11>          |salida_sumador<15>|    8.319|
+B<11>          |salida_sumador<16>|    9.094|
+B<11>          |salida_sumador<17>|    9.172|
+B<11>          |salida_sumador<18>|    8.547|
+B<11>          |salida_sumador<19>|    8.292|
+B<11>          |salida_sumador<20>|    9.066|
+B<11>          |salida_sumador<21>|    8.812|
+B<11>          |salida_sumador<22>|    8.153|
+B<11>          |salida_sumador<23>|    8.617|
+B<11>          |salida_sumador<24>|    8.141|
+B<11>          |salida_sumador<25>|    8.495|
+B<11>          |salida_sumador<26>|    8.401|
+B<11>          |salida_sumador<27>|    9.193|
+B<11>          |salida_sumador<28>|    7.860|
+B<11>          |salida_sumador<29>|    7.938|
+B<11>          |salida_sumador<30>|    7.936|
+B<11>          |salida_sumador<31>|    8.317|
+B<12>          |salida_sumador<12>|    8.104|
+B<12>          |salida_sumador<13>|    8.531|
+B<12>          |salida_sumador<14>|    8.520|
+B<12>          |salida_sumador<15>|    8.389|
+B<12>          |salida_sumador<16>|    9.164|
+B<12>          |salida_sumador<17>|    9.242|
+B<12>          |salida_sumador<18>|    8.617|
+B<12>          |salida_sumador<19>|    8.362|
+B<12>          |salida_sumador<20>|    9.136|
+B<12>          |salida_sumador<21>|    8.882|
+B<12>          |salida_sumador<22>|    8.223|
+B<12>          |salida_sumador<23>|    8.687|
+B<12>          |salida_sumador<24>|    8.211|
+B<12>          |salida_sumador<25>|    8.565|
+B<12>          |salida_sumador<26>|    8.471|
+B<12>          |salida_sumador<27>|    9.263|
+B<12>          |salida_sumador<28>|    7.930|
+B<12>          |salida_sumador<29>|    8.008|
+B<12>          |salida_sumador<30>|    8.006|
+B<12>          |salida_sumador<31>|    8.387|
+B<13>          |salida_sumador<13>|    8.766|
+B<13>          |salida_sumador<14>|    8.972|
+B<13>          |salida_sumador<15>|    8.841|
+B<13>          |salida_sumador<16>|    9.616|
+B<13>          |salida_sumador<17>|    9.694|
+B<13>          |salida_sumador<18>|    9.069|
+B<13>          |salida_sumador<19>|    8.814|
+B<13>          |salida_sumador<20>|    9.588|
+B<13>          |salida_sumador<21>|    9.334|
+B<13>          |salida_sumador<22>|    8.675|
+B<13>          |salida_sumador<23>|    9.139|
+B<13>          |salida_sumador<24>|    8.663|
+B<13>          |salida_sumador<25>|    9.017|
+B<13>          |salida_sumador<26>|    8.923|
+B<13>          |salida_sumador<27>|    9.715|
+B<13>          |salida_sumador<28>|    8.382|
+B<13>          |salida_sumador<29>|    8.460|
+B<13>          |salida_sumador<30>|    8.458|
+B<13>          |salida_sumador<31>|    8.839|
+B<14>          |salida_sumador<14>|    8.296|
+B<14>          |salida_sumador<15>|    8.316|
+B<14>          |salida_sumador<16>|    9.328|
+B<14>          |salida_sumador<17>|    9.406|
+B<14>          |salida_sumador<18>|    8.781|
+B<14>          |salida_sumador<19>|    8.526|
+B<14>          |salida_sumador<20>|    9.300|
+B<14>          |salida_sumador<21>|    9.046|
+B<14>          |salida_sumador<22>|    8.387|
+B<14>          |salida_sumador<23>|    8.851|
+B<14>          |salida_sumador<24>|    8.375|
+B<14>          |salida_sumador<25>|    8.729|
+B<14>          |salida_sumador<26>|    8.635|
+B<14>          |salida_sumador<27>|    9.427|
+B<14>          |salida_sumador<28>|    8.094|
+B<14>          |salida_sumador<29>|    8.172|
+B<14>          |salida_sumador<30>|    8.170|
+B<14>          |salida_sumador<31>|    8.551|
+B<15>          |salida_sumador<15>|    8.508|
+B<15>          |salida_sumador<16>|    9.737|
+B<15>          |salida_sumador<17>|    9.815|
+B<15>          |salida_sumador<18>|    9.190|
+B<15>          |salida_sumador<19>|    8.935|
+B<15>          |salida_sumador<20>|    9.709|
+B<15>          |salida_sumador<21>|    9.455|
+B<15>          |salida_sumador<22>|    8.796|
+B<15>          |salida_sumador<23>|    9.260|
+B<15>          |salida_sumador<24>|    8.784|
+B<15>          |salida_sumador<25>|    9.138|
+B<15>          |salida_sumador<26>|    9.044|
+B<15>          |salida_sumador<27>|    9.836|
+B<15>          |salida_sumador<28>|    8.503|
+B<15>          |salida_sumador<29>|    8.581|
+B<15>          |salida_sumador<30>|    8.579|
+B<15>          |salida_sumador<31>|    8.960|
+B<16>          |salida_sumador<16>|    8.860|
+B<16>          |salida_sumador<17>|    9.089|
+B<16>          |salida_sumador<18>|    8.701|
+B<16>          |salida_sumador<19>|    8.446|
+B<16>          |salida_sumador<20>|    9.220|
+B<16>          |salida_sumador<21>|    8.966|
+B<16>          |salida_sumador<22>|    8.307|
+B<16>          |salida_sumador<23>|    8.771|
+B<16>          |salida_sumador<24>|    8.295|
+B<16>          |salida_sumador<25>|    8.649|
+B<16>          |salida_sumador<26>|    8.555|
+B<16>          |salida_sumador<27>|    9.347|
+B<16>          |salida_sumador<28>|    8.014|
+B<16>          |salida_sumador<29>|    8.092|
+B<16>          |salida_sumador<30>|    8.090|
+B<16>          |salida_sumador<31>|    8.471|
+B<17>          |salida_sumador<17>|    8.836|
+B<17>          |salida_sumador<18>|    8.665|
+B<17>          |salida_sumador<19>|    8.410|
+B<17>          |salida_sumador<20>|    9.184|
+B<17>          |salida_sumador<21>|    8.930|
+B<17>          |salida_sumador<22>|    8.271|
+B<17>          |salida_sumador<23>|    8.735|
+B<17>          |salida_sumador<24>|    8.259|
+B<17>          |salida_sumador<25>|    8.613|
+B<17>          |salida_sumador<26>|    8.519|
+B<17>          |salida_sumador<27>|    9.311|
+B<17>          |salida_sumador<28>|    7.978|
+B<17>          |salida_sumador<29>|    8.056|
+B<17>          |salida_sumador<30>|    8.054|
+B<17>          |salida_sumador<31>|    8.435|
+B<18>          |salida_sumador<18>|    8.206|
+B<18>          |salida_sumador<19>|    8.102|
+B<18>          |salida_sumador<20>|    9.113|
+B<18>          |salida_sumador<21>|    8.859|
+B<18>          |salida_sumador<22>|    8.200|
+B<18>          |salida_sumador<23>|    8.664|
+B<18>          |salida_sumador<24>|    8.188|
+B<18>          |salida_sumador<25>|    8.542|
+B<18>          |salida_sumador<26>|    8.448|
+B<18>          |salida_sumador<27>|    9.240|
+B<18>          |salida_sumador<28>|    7.907|
+B<18>          |salida_sumador<29>|    7.985|
+B<18>          |salida_sumador<30>|    7.983|
+B<18>          |salida_sumador<31>|    8.364|
+B<19>          |salida_sumador<19>|    7.791|
+B<19>          |salida_sumador<20>|    9.019|
+B<19>          |salida_sumador<21>|    8.765|
+B<19>          |salida_sumador<22>|    8.106|
+B<19>          |salida_sumador<23>|    8.570|
+B<19>          |salida_sumador<24>|    8.094|
+B<19>          |salida_sumador<25>|    8.448|
+B<19>          |salida_sumador<26>|    8.354|
+B<19>          |salida_sumador<27>|    9.146|
+B<19>          |salida_sumador<28>|    7.813|
+B<19>          |salida_sumador<29>|    7.891|
+B<19>          |salida_sumador<30>|    7.889|
+B<19>          |salida_sumador<31>|    8.270|
+B<20>          |salida_sumador<20>|    8.717|
+B<20>          |salida_sumador<21>|    8.614|
+B<20>          |salida_sumador<22>|    8.192|
+B<20>          |salida_sumador<23>|    8.656|
+B<20>          |salida_sumador<24>|    8.180|
+B<20>          |salida_sumador<25>|    8.534|
+B<20>          |salida_sumador<26>|    8.440|
+B<20>          |salida_sumador<27>|    9.232|
+B<20>          |salida_sumador<28>|    7.899|
+B<20>          |salida_sumador<29>|    7.977|
+B<20>          |salida_sumador<30>|    7.975|
+B<20>          |salida_sumador<31>|    8.356|
+B<21>          |salida_sumador<21>|    8.191|
+B<21>          |salida_sumador<22>|    7.986|
+B<21>          |salida_sumador<23>|    8.450|
+B<21>          |salida_sumador<24>|    7.974|
+B<21>          |salida_sumador<25>|    8.328|
+B<21>          |salida_sumador<26>|    8.234|
+B<21>          |salida_sumador<27>|    9.026|
+B<21>          |salida_sumador<28>|    7.693|
+B<21>          |salida_sumador<29>|    7.771|
+B<21>          |salida_sumador<30>|    7.769|
+B<21>          |salida_sumador<31>|    8.150|
+B<22>          |salida_sumador<22>|    7.647|
+B<22>          |salida_sumador<23>|    8.262|
+B<22>          |salida_sumador<24>|    8.023|
+B<22>          |salida_sumador<25>|    8.377|
+B<22>          |salida_sumador<26>|    8.283|
+B<22>          |salida_sumador<27>|    9.075|
+B<22>          |salida_sumador<28>|    7.742|
+B<22>          |salida_sumador<29>|    7.820|
+B<22>          |salida_sumador<30>|    7.818|
+B<22>          |salida_sumador<31>|    8.199|
+B<23>          |salida_sumador<23>|    8.150|
+B<23>          |salida_sumador<24>|    8.128|
+B<23>          |salida_sumador<25>|    8.482|
+B<23>          |salida_sumador<26>|    8.388|
+B<23>          |salida_sumador<27>|    9.180|
+B<23>          |salida_sumador<28>|    7.847|
+B<23>          |salida_sumador<29>|    7.925|
+B<23>          |salida_sumador<30>|    7.923|
+B<23>          |salida_sumador<31>|    8.304|
+B<24>          |salida_sumador<24>|    7.878|
+B<24>          |salida_sumador<25>|    8.383|
+B<24>          |salida_sumador<26>|    8.526|
+B<24>          |salida_sumador<27>|    9.318|
+B<24>          |salida_sumador<28>|    7.985|
+B<24>          |salida_sumador<29>|    8.063|
+B<24>          |salida_sumador<30>|    8.061|
+B<24>          |salida_sumador<31>|    8.442|
+B<25>          |salida_sumador<25>|    8.205|
+B<25>          |salida_sumador<26>|    8.565|
+B<25>          |salida_sumador<27>|    9.357|
+B<25>          |salida_sumador<28>|    8.024|
+B<25>          |salida_sumador<29>|    8.102|
+B<25>          |salida_sumador<30>|    8.100|
+B<25>          |salida_sumador<31>|    8.481|
+B<26>          |salida_sumador<26>|    8.198|
+B<26>          |salida_sumador<27>|    9.141|
+B<26>          |salida_sumador<28>|    8.045|
+B<26>          |salida_sumador<29>|    8.123|
+B<26>          |salida_sumador<30>|    8.121|
+B<26>          |salida_sumador<31>|    8.502|
+B<27>          |salida_sumador<27>|    8.984|
+B<27>          |salida_sumador<28>|    8.105|
+B<27>          |salida_sumador<29>|    8.183|
+B<27>          |salida_sumador<30>|    8.181|
+B<27>          |salida_sumador<31>|    8.562|
+B<28>          |salida_sumador<28>|    7.705|
+B<28>          |salida_sumador<29>|    7.934|
+B<28>          |salida_sumador<30>|    8.169|
+B<28>          |salida_sumador<31>|    8.550|
+B<29>          |salida_sumador<29>|    7.576|
+B<29>          |salida_sumador<30>|    8.028|
+B<29>          |salida_sumador<31>|    8.409|
+B<30>          |salida_sumador<30>|    7.603|
+B<30>          |salida_sumador<31>|    8.135|
+B<31>          |salida_sumador<31>|    7.789|
+---------------+------------------+---------+
+
+
+Analysis completed Thu Oct 13 19:48:00 2016 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 178 MB
+
+
+
