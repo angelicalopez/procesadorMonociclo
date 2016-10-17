@@ -15,3 +15,24 @@ ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-5 sumador.ngc
 map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o sumador_map.ncd sumador.ngd sumador.pcf 
 par -w -intstyle ise -ol high -t 1 sumador_map.ncd sumador.ncd sumador.pcf 
 trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml sumador.twx sumador.ncd -o sumador.twr sumador.pcf 
+xst -intstyle ise -ifn "D:/Users/angelicabibiana/Desktop/procesadorangelica/procesador1/sumador.xst" -ofn "D:/Users/angelicabibiana/Desktop/procesadorangelica/procesador1/sumador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-5 sumador.ngc sumador.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o sumador_map.ncd sumador.ngd sumador.pcf 
+par -w -intstyle ise -ol high -t 1 sumador_map.ncd sumador.ncd sumador.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml sumador.twx sumador.ncd -o sumador.twr sumador.pcf 
+xst -intstyle ise -ifn "D:/Users/angelicabibiana/Desktop/procesadorangelica/procesador1/sumador.xst" -ofn "D:/Users/angelicabibiana/Desktop/procesadorangelica/procesador1/sumador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-5 sumador.ngc sumador.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o sumador_map.ncd sumador.ngd sumador.pcf 
+par -w -intstyle ise -ol high -t 1 sumador_map.ncd sumador.ncd sumador.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml sumador.twx sumador.ncd -o sumador.twr sumador.pcf 
+xst -intstyle ise -ifn "D:/Users/angelicabibiana/Desktop/procesadorangelica/procesador1/sumador.xst" -ofn "D:/Users/angelicabibiana/Desktop/procesadorangelica/procesador1/sumador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-5 sumador.ngc sumador.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o sumador_map.ncd sumador.ngd sumador.pcf 
+par -w -intstyle ise -ol high -t 1 sumador_map.ncd sumador.ncd sumador.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml sumador.twx sumador.ncd -o sumador.twr sumador.pcf 
+xst -intstyle ise -ifn "D:/Users/angelicabibiana/Desktop/procesadorangelica/procesador1/sumador.xst" -ofn "D:/Users/angelicabibiana/Desktop/procesadorangelica/procesador1/sumador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-5 sumador.ngc sumador.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o sumador_map.ncd sumador.ngd sumador.pcf 
+par -w -intstyle ise -ol high -t 1 sumador_map.ncd sumador.ncd sumador.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml sumador.twx sumador.ncd -o sumador.twr sumador.pcf 
+vhdtdtfi -prj procesador1 -o D:/Users/angelicabibiana/Desktop/procesadorangelica/procesador1/sumador.vhi -module sumador -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work sumador.vhd 

@@ -1,21 +1,22 @@
-Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o D:/Users/angelicabibiana/Desktop/procesadorangelica/procesador1/Tb_Rf_isim_beh.exe -prj D:/Users/angelicabibiana/Desktop/procesadorangelica/procesador1/Tb_Rf_beh.prj work.Tb_Rf 
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o D:/Users/angelicabibiana/Desktop/procesadorangelica/procesador1/tb_alu_isim_beh.exe -prj D:/Users/angelicabibiana/Desktop/procesadorangelica/procesador1/tb_alu_beh.prj work.tb_alu 
 ISim P.20131013 (signature 0x7708f090)
 Number of CPUs detected in this system: 4
 Turning on mult-threading, number of parallel sub-compilation jobs: 8 
 Determining compilation order of HDL files
-Parsing VHDL file "D:/Users/angelicabibiana/Desktop/procesadorangelica/procesador1/Rf.vhd" into library work
-Parsing VHDL file "D:/Users/angelicabibiana/Desktop/procesadorangelica/procesador1/Tb_Rf.vhd" into library work
+Parsing VHDL file "D:/Users/angelicabibiana/Desktop/procesadorangelica/procesador1/Alu.vhd" into library work
+Parsing VHDL file "D:/Users/angelicabibiana/Desktop/procesadorangelica/procesador1/tb_alu.vhd" into library work
 Starting static elaboration
 Completed static elaboration
 Compiling package standard
 Compiling package std_logic_1164
 Compiling package std_logic_arith
 Compiling package std_logic_unsigned
-Compiling architecture behavioral of entity Rf [rf_default]
-Compiling architecture behavior of entity tb_rf
+Compiling package numeric_std
+Compiling architecture behavioral of entity Alu [alu_default]
+Compiling architecture behavior of entity tb_alu
 Time Resolution for simulation is 1ps.
 Waiting for 1 sub-compilation(s) to finish...
-Compiled 7 VHDL Units
-Built simulation executable D:/Users/angelicabibiana/Desktop/procesadorangelica/procesador1/Tb_Rf_isim_beh.exe
-Fuse Memory Usage: 33836 KB
-Fuse CPU Usage: 811 ms
+Compiled 8 VHDL Units
+Built simulation executable D:/Users/angelicabibiana/Desktop/procesadorangelica/procesador1/tb_alu_isim_beh.exe
+Fuse Memory Usage: 36632 KB
+Fuse CPU Usage: 937 ms
